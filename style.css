@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  background: #333333;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+/* navbar */
+#navbar{
+    /* background-color: rgb(250, 235, 235); */
+    color:#d4d4f1;
+  height:100px;
+border-style: 2px 2px solid rgb(233, 217, 217);
+  border-radius: 20px;
+  box-shadow: 0 0 18px 8px #222;
+
+
+}
+
+#navbar .left h1 {
+    text-align: center;
+    font-size: 80px;
+    /* color:rgb(160, 103, 17); */
+    color: black;
+    margin-top:20px;
+    font-family: 'Dancing Script', cursive;
+}
+#navbar .left h1 span {
+    font-size: 90px;
+    color: maroon;
+}
+/* modal */
+.right{
+    text-align: right;
+    margin-top: -80px;
+    margin-right: 70px;
+    /* box-shadow: 0 0 18px 8px #222; */
+}
+.modal {
+    font-size: 50%;
+ color: black;
+ text-align: left;
+
+}
+.right .btn-danger{
+  font-size: 18px;
+}
+.right .modal {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.right .modal-header .modal-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.modal .modal-body .form-group {
+  font-size: 20px;
+}
+.form-check-input {
+    left: 7;
+}
+.modal .modal-body .form-group .form-control{
+    width: 100%;
+    padding: 25px;
+    font-size: 18px;
+}
+.modal .modal-body {
+ height: 50%;
+    width: 100%;
+} 
+.modal .btn-success{
+  width: 80px;
+  height: 50px;
+  border-radius: 100%;
+}
+.text .inp{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  height: 50px;
+  position: relative;
+  border: 2px solid #222;
+  font-size: 25px;
+  box-shadow: 0 0 18px 8px #222;
+  border-radius: 20px;
+}
+.text button{
+  position: absolute;
+  margin-left: 945px;
+  margin-top: -48px;
+    border-radius: 20px;
+    box-shadow: 0 0 18px 8px #222;
+    height: 47px;
+    width: 10%;
+}
+/* types */
+/* .types {
+    /* background-color: olive; */
+
+/* .types h2 {
+    color: black;
+    font-size:50px;
+    text-align: center;
+    margin-top: 20px;
+} */
+/* .types .type1  {
+    border-style: 2px solid white;
+} */
+/* education */
+/* .container {
+  margin-top: 70px;
+  display: inline-block;
+ width: 50px;
+}
+.container .flap img {
+width: 20%;
+height: 200px;
+margin-top: 100px;
+margin-left: 60px;
+}
+ .flap {
+   position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flap::before {
+    position: absolute;
+    content: "";
+    height: 35%;
+    width: 30%;
+     background:url(./image/me.jpeg); 
+     background: #0F2027;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+    background-position: 0px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+  
+  .flap::after {
+    position: absolute;
+    content: "";
+    height: 35%;
+    width: 30%;
+    /* left: 10; */
+    /* background: #0F2027;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-position: 0px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    margin-top: -100px;
+  }
+.container:hover .flap::after {
+    transform: translateY(120px);
+  }
+  
+  .container:hover .flap::before{
+    transform: translateY(-120px);
+  } 
+.container1 a {
+  position: absolute;
+  color: #fff;
+  font-size: 35px;
+  z-index: 1;
+  margin-top: -130px;
+  margin-left: 80px;
+
+}
+.flap .container1 a:hover{
+  display: none;
+} */
+/* freelance */
+/* .container2 {
+  margin-top: 180px;
+  display: inline-block;
+ width: 50px;
+}
+.flap1 img {
+width: 20%;
+height: 200px;
+margin-top: 200px;
+margin-left: 60px;
+}
+.flap1 {
+  position: relative; */    /* width: 100%; */
+   /* height: 100%;
+ }
+ .flap1::before {
+  position: absolute;
+  content: "";
+  height: 35%;
+  width: 30%;
+   background:url(./image/me.jpeg); 
+   background: #0F2027;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background-position: 0px;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap1::after {
+  position: absolute;
+  content: "";
+  height: 35%;
+  width: 30%;
+  left: -100px;
+  background: #0F2027;  fallback for old browsers */ 
+/* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background-position: 0px;
+  background-repeat: no-repeat;
+  transition: 1s;
+  margin-top: 400px; */ 
+  .container{
+    display: flex;
+    text-align: center;
+    /* background-color:rgb(160, 103, 17); */
+  
+  }
+  .type {
+    display: flex;
+     gap: 185px;
+    text-align: center;
+    margin-top: 30px;
+  }
+.type .education{
+  border: 4px solid black;
+  font-size: 45px;
+  color: black;
+  width: 32%;
+  box-shadow: 0 0 30px 8px #222;
+  height: 200px;
+  font-family: 'Lobster', cursive;
+  padding: 30px;
+  margin-top: 55px;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.type .education:hover {
+  background: blanchedalmond;
+}
+.type .freelancing{
+  font-size: 45px;
+  border: 4px solid black;
+  color: black;
+  padding: 30px;
+  width: 32%;
+  height: 200px;
+  box-shadow: 0 0 30px 8px #222;
+  margin-top: 55px;
+  font-family: 'Lobster', cursive;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.type .freelancing:hover {
+  background: blanchedalmond;
+  
+}
+.type .mentalhealth{
+  font-size: 45px;
+  color: black;
+  border: 4px solid black;
+  box-shadow: 0 0 30px 8px #222;
+  font-family: 'Lobster', cursive;
+  padding: 30px;
+  margin-top: 55px;
+  width: 32%;
+  height: 200px;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.type .mentalhealth:hover {
+background: blanchedalmond;
+}
+
+.button {
+  color: #fff;
+  /* border: 2px solid #222; */
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding: 10px 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  box-shadow: 0 0 30px 8px #222;
+  width: 50%;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
